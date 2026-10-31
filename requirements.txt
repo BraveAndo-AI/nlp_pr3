@@ -1,0 +1,7 @@
+datasets>=2.20
+datasketch
+pandas
+numpy
+matplotlib
+tabulate
+fasttext-predict

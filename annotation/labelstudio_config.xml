@@ -1,0 +1,10 @@
+<View>
+  <Header value="Пригоден ли текст для обучения казахской языковой модели? (см. инструкцию)"/>
+  <Text name="text" value="$text"/>
+  <Choices name="quality" toName="text" choice="single" showInline="true" required="true">
+    <Choice value="GOOD" hotkey="1"/>
+    <Choice value="MEDIUM" hotkey="2"/>
+    <Choice value="BAD" hotkey="3"/>
+  </Choices>
+  <TextArea name="comment" toName="text" placeholder="Комментарий, если сомневаешься" maxSubmissions="1"/>
+</View>

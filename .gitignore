@@ -1,0 +1,7 @@
+venv/
+ls_env/
+__pycache__/
+.pytest_cache/
+*.ftz
+.vscode/
+.idea/
